@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage[margin=3cm]{geometry}
+\usepackage{parskip}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\title{$name$}
+\date{}
+
+\begin{document}
+
+\begin{minipage}[ht]{0.48\textwidth}
+    \textbf{\Huge{$name$}}
+    $if(title)$
+    \\
+    $title$
+    $endif$
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+    ~
+    $if(address)$
+        $address$
+    $endif$
+    $if(email)$
+        \\
+        $email$
+    $endif$
+    $if(phone)$
+        \\
+        $phone$
+    $endif$
+\end{minipage}
+
+\noindent\rule{\textwidth}{1pt}
+
+$body$
+\end{document}
