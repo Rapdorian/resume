@@ -4,12 +4,12 @@ phone: 571-246-7472
 email: jamescpruitt@gmail.com
 ---
 
-Computer science student at with an interest in low level systems / embedded development
+Computer science student at with an interest in systems and embedded development
 
 # Education
 
 **B.Sc. Computer Science**, Western Carolina University \hfill Cullowhee, NC  
-Estimated graduation date: May 2022
+Estimated graduation date: Dec 2021
 
 **High School Diploma** \hfill Waxhaw, NC  
 2016
@@ -17,12 +17,18 @@ Estimated graduation date: May 2022
 # Work Experience
 
 **Software Developer Intern**, SIL International  
+2020
+
+* Continued working on the tool from 2019 internship
+* Got the tool into a usable state for a field test with users
+
+**Software Developer Intern**, SIL International  
 2019
 
 * Developed a tool for cleaning data after a rapid word collection workshop
 * Wrote ansible scripts to managing deploying a webserver to an Intel NUC running Ubuntu server
 
-**NES Game Developer**, Mega Cat Studios  
+**NES Game Developer**, Freelance  
 2018-2019
 
 * Wrote various video games in C and 6502 assembly for the NES
@@ -36,6 +42,8 @@ Estimated graduation date: May 2022
 
 
 # Technical Experience
+
+**Java**, Used at school
 
 **Typescript/React**,  Used at SIL
 
