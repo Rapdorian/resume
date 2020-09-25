@@ -22,13 +22,13 @@ Estimated graduation date: Dec 2021
 2020
 
 * Continued working on the tool from 2019 internship
-* Got the tool into a usable state for a field test with users
+* Refined the tool into a usable state for a field test with users
 
 **Software Developer Intern**, SIL International  
 2019
 
 * Developed a tool for cleaning data after a rapid word collection workshop
-* Wrote ansible scripts to managing deploying a webserver to an Intel NUC running Ubuntu server
+* Wrote Ansible scripts which managed deploying a web server to an Intel NUC running Ubuntu server
 
 **NES Game Developer**, Freelance  
 2018-2019
