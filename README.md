@@ -1,7 +1,8 @@
 
 # James Pruitt   
 571-246-7472  
-jamescpruitt@gmail.com
+jamescpruitt@gmail.com  
+github.com/Rapdorian
 
 ---
 

@@ -2,6 +2,7 @@
 name: James Pruitt
 phone: 571-246-7472
 email: jamescpruitt@gmail.com
+github: github.com/Rapdorian
 ---
 
 Computer science student at with an interest in systems and embedded development

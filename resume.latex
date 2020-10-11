@@ -35,6 +35,10 @@
         \\
         $phone$
     $endif$
+    $if(github)$
+        \\
+        $github$
+    $endif$
 \end{minipage}
 
 \noindent\rule{\textwidth}{1pt}
