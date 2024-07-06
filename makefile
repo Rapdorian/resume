@@ -1,5 +1,12 @@
-resume.pdf: resume.md
-	pandoc --template=resume.latex resume.md -o resume.pdf
+default: resume.pdf
 
-README.md: resume.md
-	./make_readme.sh
+build/%.pdf: %.latex
+	mkdir -p build/
+	pdflatex --output-directory build/ $<
+
+%.pdf: build/%.pdf
+	mv $< $@
+
+clean:
+	rm build/ -rf
+	rm *.pdf

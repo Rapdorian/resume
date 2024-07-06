@@ -10,38 +10,77 @@
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 
 
-\title{$name$}
+\title{James Pruitt}
 \date{}
 
 \begin{document}
 
 \begin{minipage}[ht]{0.48\textwidth}
-    \textbf{\Huge{$name$}}
-    $if(title)$
-    \\
-    $title$
-    $endif$
-\end{minipage}
+    \textbf{\Huge{James Pruitt}}
+    \end{minipage}
 \begin{minipage}[ht]{0.48\textwidth}
     ~
-    $if(address)$
-        $address$
-    $endif$
-    $if(email)$
-        \\
-        $email$
-    $endif$
-    $if(phone)$
-        \\
-        $phone$
-    $endif$
-    $if(github)$
-        \\
-        $github$
-    $endif$
-\end{minipage}
+                \\
+        jamescpruitt@gmail.com
+                \\
+        571-246-7472
+                \\
+        github.com/Rapdorian
+    \end{minipage}
 
 \noindent\rule{\textwidth}{1pt}
 
-$body$
+\newcommand{\position}[4]{
+	\textbf{#1}, #2\\#3
+}
+\newenvironment{jobdesc}{\begin{itemize}\tightlist}{\end{itemize}}
+
+Software engineer with experience developing secure cloud applications in Rust and Typescript.
+
+\section{Work Experience}\label{work-experience}
+
+\position{Software Engineer}{Fortanix}{2022-2024}{2 years}
+\begin{jobdesc}
+  \item{Backend development for a cloud key management and encryption server}
+  \item{Developed tool for reducing latency for on-premises customers.}
+  \item{Developed new customer facing APIs while maintaining backward compatibility with existing APIs}
+\end{jobdesc}
+
+\position{Software Developer Intern}{SIL International}{2020}{1 year}
+\begin{jobdesc}
+  \item Continued working on the tool from 2019 internship
+  \item Refined the tool into a usable state for a field test with users
+\end{jobdesc}
+
+\position{Software Developer Intern}{SIL International}{2019}{1 year}
+\begin{jobdesc}
+  \item Developed a tool for cleaning data after a rapid word collection workshop
+  \item Wrote Ansible scripts which managed deploying a web server to an Intel NUC running Ubuntu server
+\end{jobdesc}
+
+\position{NES Game Developer}{Freelance}{2018-2019}{1 year}
+\begin{jobdesc}
+  \item Wrote various video games in C and 6502 assembly for the NES
+\end{jobdesc}
+
+\section{Education}\label{education}
+
+\position{B.Sc. Computer Science}{Western Carolina University}{May 2022}{Cullowhee, NC}
+\begin{jobdesc}
+	\item For my capstone project I wrote a MIPS architecture simulator and IDE that could run and debug MIPS programs.
+\end{jobdesc}
+
+\position{High School Diploma}{}{2016}{Waxhaw, NC}
+
+\section{Skills}\label{skills}
+
+\begin{jobdesc}
+  \item {Rust}
+  \item {API Design}
+  \item {Docker}
+  \item {Linux}
+  \item {Typescript}
+  \item {React}
+  \item {C\#}
+\end{jobdesc}
 \end{document}
