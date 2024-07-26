@@ -3,6 +3,7 @@
 \usepackage{hyperref}
 \usepackage[margin=3cm]{geometry}
 \usepackage{parskip}
+\usepackage{multicol}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -35,7 +36,7 @@
 }
 \newenvironment{jobdesc}{\begin{itemize}\tightlist}{\end{itemize}}
 
-Software engineer with experience developing secure cloud applications in Rust and Typescript.
+Software engineer with 4 years of experience. Interested in using new technologies to develop performant applications.
 
 \section{Work Experience}\label{work-experience}
 
@@ -46,16 +47,12 @@ Software engineer with experience developing secure cloud applications in Rust a
   \item{Developed new customer facing APIs while maintaining backward compatibility with existing APIs}
 \end{jobdesc}
 
-\position{Software Developer Intern}{SIL International}{2020}{1 year}
-\begin{jobdesc}
-  \item Continued working on the tool from 2019 internship
-  \item Refined the tool into a usable state for a field test with users
-\end{jobdesc}
-
-\position{Software Developer Intern}{SIL International}{2019}{1 year}
+\position{Software Developer Intern}{SIL International}{Summers of 2019 \& 2020}{1 year}
 \begin{jobdesc}
   \item Developed a tool for cleaning data after a rapid word collection workshop
   \item Wrote Ansible scripts which managed deploying a web server to an Intel NUC running Ubuntu server
+
+  \item Refined the tool into a usable state for a field test with users
 \end{jobdesc}
 
 \position{NES Game Developer}{Freelance}{2018-2019}{1 year}
@@ -65,22 +62,34 @@ Software engineer with experience developing secure cloud applications in Rust a
 
 \section{Education}\label{education}
 
-\position{B.Sc. Computer Science}{Western Carolina University}{May 2022}{Cullowhee, NC}
+\position{B.Sc. Computer Science}{Western Carolina University, Cullowhee, NC}{May 2022}{}
 \begin{jobdesc}
 	\item For my capstone project I wrote a MIPS architecture simulator and IDE that could run and debug MIPS programs.
 \end{jobdesc}
 
-\position{High School Diploma}{}{2016}{Waxhaw, NC}
+\position{High School Diploma}{Waxhaw, NC}{2016}{}
 
 \section{Skills}\label{skills}
-
-\begin{jobdesc}
-  \item {Rust}
-  \item {API Design}
-  \item {Docker}
-  \item {Linux}
-  \item {Typescript}
-  \item {React}
-  \item {C\#}
-\end{jobdesc}
+\begin{multicols}{3}
+  \begin{jobdesc}
+    \item {API Design}
+    \item {Assembly}
+    \item {C\#}
+    \item {CassandraDB}
+    \item {Computer Graphics}
+    \item {C}
+    \item {Docker}
+    \item {Git}
+    \item {HTML}
+    \item {Javascript}
+    \item {Linux}
+    \item {MIPS}
+    \item {MongoDB}
+    \item {React}
+    \item {Rest}
+    \item {Rust}
+    \item {SQL}
+    \item {Typescript}
+  \end{jobdesc}
+\end{multicols}
 \end{document}
